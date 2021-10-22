@@ -1,0 +1,53 @@
+/*selector{
+	property: value;
+}*/
+*{
+	text-align: center;
+
+}
+
+body{
+	background-image: url(rainbow.jpg);
+	background-size:cover ;
+}
+
+h2, h3, p{
+	color: red;
+	text-align: center;
+	border: solid 8px lightpink;
+	cursor: pointer;
+}
+
+p{
+	text-decoration: underline;
+	color: black;
+	text-transform: uppercase;
+}
+
+li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+}
+
+li a{
+	text-decoration: none;
+
+
+}
+
+.webtext{
+	border: dashed 5px green;
+}
+
+.activate{
+	color: blueviolet;
+}
+ 
+ #web{
+ 	background-color: rgba(0, 0, 255, 0.2);
+ }
+
+#web1{
+ 	background-color: rgba(255, 0, 0, 0.2);
+ }
